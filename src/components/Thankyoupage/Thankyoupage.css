@@ -1,0 +1,39 @@
+/* Container for the thank you page */
+.thank-you-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(to bottom right, #a8e6a1, white); /* Green to white gradient */
+    padding: 20px;
+    text-align: center;
+    color: green;
+}
+  
+/* Big Thank You heading */
+.thank-you-container h1 {
+   font-size: 3rem;
+   color: #2e7d32; /* Darker green */
+   margin-bottom: 20px;
+   font-weight: bold;
+}
+  
+/* Paragraph styling */
+.thank-you-container p {
+   font-size: 1.5rem;
+   color: #2e7d32;
+   margin: 10px 0;
+}
+  
+  /* Responsive design for mobile */
+@media (max-width: 768px) {
+ .thank-you-container h1 {
+    font-size: 2.5rem;
+}
+  
+.thank-you-container p {
+    font-size: 1.2rem;
+ }
+}
+  
