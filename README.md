@@ -28,7 +28,7 @@ Make sure you have the following installed on your machine:
 1. Clone the repository:
 
    ```bash
-   git clone "https://github.com/satyaswarup140/EaseSmith-frontend.git"
+   git clone "https://github.com/satyaswarup140/Easesmith-frontend.git"
 
 2. Navigate into the project directory:
    
